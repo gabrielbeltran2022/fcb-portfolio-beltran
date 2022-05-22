@@ -1,0 +1,76 @@
+* {
+	font-family:"Roboto", sans-serif;
+}
+
+h1,h2 {
+	font-family:"Lobster", sans-serif;
+}
+
+#profile {
+	height: 250px;
+	width: 250px;
+	border-radius: 50px;
+}
+
+#landing
+{
+	/*viewport height - measured the percentage of height of the device you ae viewing your webpages in mobile*/
+	height: 80vh;
+	
+	/*arranges element inside the parent element, will allow us to layout our element inside our landing section*/
+	display: flex;
+	/*diects the elements inside display: flex */
+	flex-direction: column;
+     /*centering elements vertical */
+ 	align-items: center;
+ 	/*centering elements vertically */
+ 	justify-content: center;
+
+}
+
+.jumbotron {
+	 background-color: transparent;
+}
+
+#gallery {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		height: 75vh;
+		border-radius:  23px;
+
+}	
+
+ul,ol{
+	list-style: none;
+	padding: 0;
+}
+
+
+
+h2{
+	color: #007bff;
+}
+
+
+.tools{
+	/*line - around the element */
+	 border: 5px solid #f2f2f2;
+/*space outside the element*/
+	 margin: 20px;
+
+	 /*space inside the element */
+	 padding: 25px;
+
+	 height: 200px;
+
+	/*based on the total width of the parents*/
+	width: 75%;	
+
+	color: white;
+}
+
+html{
+	scroll-behavior: smooth;
+}
